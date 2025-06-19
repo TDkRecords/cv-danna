@@ -2,77 +2,78 @@
     import danna from "$lib/images/danna.jpg";
 </script>
 
+<svelte:head>
+    <title>CV - Danna</title>
+</svelte:head>
+
 <img src={danna} alt="danna.jpg" width="144px" />
 <h1>Danna Gabriela Betancourt Chamorro</h1>
-<code>Chambeadora pro</code>
+<small>C.C 1.081.055.963</small>
 <br />
-<h3>perfil</h3>
+<h3>Perfil</h3>
 <p>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum debitis,
-    voluptates id aperiam nisi dignissimos deleniti? Quis, ipsa omnis.
-    Praesentium doloremque, quam adipisci hic architecto aliquam rerum sequi,
-    explicabo a molestiae dolorem perferendis sit dolores facere aperiam, eum
-    voluptates quo? Ipsa numquam facilis aperiam praesentium quis explicabo
-    earum animi quidem ratione corrupti? Nobis incidunt praesentium error animi
-    consectetur necessitatibus sit soluta cum voluptatem quis laboriosam
-    accusamus iure atque corporis vero, ratione voluptates fuga cupiditate
-    quaerat id labore ex veritatis asperiores. Facilis, earum placeat? Saepe
-    deserunt quam, voluptate corrupti itaque inventore facere explicabo dolor
-    sapiente dolore numquam ratione voluptatem doloribus, aspernatur rem magnam
-    voluptates veritatis illo odit perspiciatis nam eaque doloremque! Reiciendis
-    in sequi exercitationem! Labore autem mollitia dolores ut reprehenderit
-    cupiditate quasi quia modi! Officia temporibus est quis, consequuntur
-    voluptatibus animi inventore harum suscipit autem similique corporis atque
-    maiores laborum, provident debitis, error hic in? Sed quo nemo quibusdam
-    minus.
+    Cuento con sólidas habilidades en atención al cliente, brindando un trato
+    cordial, eficiente y enfocado en resolver necesidades de manera oportuna. Me
+    caracterizo por ser una persona receptiva, con alta capacidad para seguir
+    indicaciones y adaptarme rápidamente a diferentes entornos de trabajo.
+    Además, destaco por mi actitud proactiva y mi disposición para colaborar en
+    diversas tareas, aportando al trabajo en equipo y contribuyendo a un
+    ambiente laboral positivo. Mi compromiso, responsabilidad y enfoque en la
+    mejora continua me permiten desempeñar mis funciones con eficacia y aportar
+    valor a la organización.
 </p>
 <br />
-<h3>Experiencia Laboral</h3>
-<p>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, harum
-    vitae! Debitis qui eaque deserunt maxime repellendus architecto minus cum
-    similique reprehenderit expedita consectetur ipsa unde facere corporis
-    facilis, nemo, officia commodi quam illum corrupti! Necessitatibus
-    consequuntur voluptatum, quis velit est delectus obcaecati? Vitae adipisci
-    aliquid nisi nemo quo tenetur eaque, molestias dolores corporis. Velit
-    placeat recusandae perferendis ex quaerat voluptatum deserunt, laboriosam
-    tempora praesentium quasi nobis incidunt expedita. Inventore dolorum
-    expedita cumque aliquam asperiores accusantium maiores!
-</p>
-<p>
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod in fuga
-    repellendus tempora recusandae cum eum accusantium, doloremque consectetur
-    officia minima iusto deserunt aliquid ea minus pariatur ad nihil voluptate
-    quae nostrum? Recusandae aspernatur iste neque reprehenderit unde excepturi
-    enim nostrum tempora, ut laborum! Exercitationem ipsam culpa dolore fugiat
-    consequatur, pariatur sequi aut voluptas ipsa, magni nemo totam odit at!
-    Eius quia aspernatur maiores quisquam, obcaecati corrupti perferendis
-    voluptatibus numquam architecto eveniet consectetur perspiciatis ipsa
-    incidunt illum.
-</p>
-<p>
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit nisi aliquam
-    labore magnam odio sed natus obcaecati vel deserunt itaque. Nemo aspernatur
-    nesciunt dicta ab nulla illo eveniet sit esse. Libero ullam nobis minima
-    repellat rerum nemo quo voluptate repudiandae laudantium, optio deleniti.
-    Quisquam, debitis id!
-</p>
+<h3>Historial Academico</h3>
+<h5>San Francisco de Asís - pasto</h5>
+<p>Primaria - <small>2017</small></p>
+<h5>San Nicolás - pasto</h5>
+<p>Secundaria - <small>2024</small></p>
+<h5>Lenguas - Vipri</h5>
+<p>Segundo Nivel - <small>2024</small></p>
 
 <br />
-<h3>estudios</h3>
-<p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolores
-    quaerat alias quod voluptate ab error eligendi!
-</p>
-<p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolores
-    quaerat alias quod voluptate ab error eligendi!
-</p>
-<p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolores
-    quaerat alias quod voluptate ab error eligendi!
-</p>
-<p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolores
-    quaerat alias quod voluptate ab error eligendi!
-</p>
+
+<h3>Referencia Familiar</h3>
+
+<h5>Carolina Astris Chamorro Yela</h5>
+<ul>
+    <li>Técnico de desarrollo empresarial</li>
+    <li>Asesora Comercial de laboratorios lissia</li>
+    <small>(+57) 311 7750911</small>
+</ul>
+<h5>Diana Catalina Santracuz</h5>
+<ul>
+    <li>Licenciatura de primera infancia</li>
+    <small>(+57) 323 521 1780</small>
+</ul>
+
+<br />
+
+<h3>Referencia Laboral</h3>
+
+<h5>Johnatan David Santacruz</h5>
+<ul>
+    <li>Abogado</li>
+    <li>Propietario de Shot Me - Plaza Norte</li>
+    <small>(+57) 316 360 0769</small>
+</ul>
+<h5>Alcira Rodrigues</h5>
+<ul>
+    <li>Vendedora - Tienda el descuentaso</li>
+    <small>(+57) 318 328 3940</small>
+</ul>
+
+<br />
+
+<h3>Experiencia Laboral</h3>
+
+<h5>Vendedora</h5>
+<ul>
+    <li>Tienda el descuentaso</li>
+    <small>Enero 2024 - Marzo 2024</small>
+</ul>
+<h5>Cajera</h5>
+<ul>
+    <li>Shot Me - Plaza Norte</li>
+    <small>Octubre 2024 - Noviembre 2024</small>
+</ul>

@@ -1,5 +1,39 @@
+@import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root {
+    /* Tu paleta personalizada */
+    --bs-primary: #ecdfd9;
+    --bs-secondary: #d9d9d9;
+    --bs-success: #ce9c91;
+    --bs-info: #000000;
+    --bs-light: #ffffff;
+    --bs-dark: #000000;
+
+    /* Actualiza también los valores RGB para utilidades que los usan */
+    --bs-primary-rgb: 236, 223, 217;
+    --bs-secondary-rgb: 217, 217, 217;
+    --bs-success-rgb: 206, 156, 145;
+    --bs-info-rgb: 0, 0, 0;
+    --bs-light-rgb: 255, 255, 255;
+    --bs-dark-rgb: 0, 0, 0;
+}
+
+.bg-primary {
+    background-color: var(--bs-primary) !important;
+}
+
+.bg-secondary {
+    background-color: var(--bs-secondary) !important;
+}
+
+
+.body {
+    background-color: var(--bs-light) !important;
+    color: var(--bs-dark) !important;
 }
