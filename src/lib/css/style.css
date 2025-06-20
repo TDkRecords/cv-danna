@@ -7,7 +7,6 @@
 }
 
 :root {
-    /* Tu paleta personalizada */
     --bs-primary: #ecdfd9;
     --bs-secondary: #d9d9d9;
     --bs-success: #ce9c91;
@@ -15,7 +14,6 @@
     --bs-light: #ffffff;
     --bs-dark: #000000;
 
-    /* Actualiza también los valores RGB para utilidades que los usan */
     --bs-primary-rgb: 236, 223, 217;
     --bs-secondary-rgb: 217, 217, 217;
     --bs-success-rgb: 206, 156, 145;
@@ -36,4 +34,32 @@
 .body {
     background-color: var(--bs-light) !important;
     color: var(--bs-dark) !important;
+}
+
+.hr-class {
+    padding: 1.5px;
+}
+
+i {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--bs-dark);
+    transition: color ease-in-out .150ms;
+}
+
+a:hover {
+    cursor: pointer;
+    color: var(--bs-success);
+}
+
+.icons-info i {
+    background-color: var(--bs-success);
+    color: var(--bs-primary);
+    padding: 6px;
+    border-radius: 50%;
+    margin: 8px 2px;
+    margin-left: 5px;
 }

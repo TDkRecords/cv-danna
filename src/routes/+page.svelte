@@ -23,9 +23,37 @@
             />
             <h2 class="fw-bold">Danna Gabriela Betancourt</h2>
             <p class="text-muted">C.C. 1.081.055.963</p>
-        </div>
+            <section class="container">
+                <div class="hr-class rounded-5 bg-success"></div>
+                <h4 class="mt-2">Contacto</h4>
+                <div class="text-start icons-info mb-4">
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>(+57) 322 5326824</span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:danagabrielabetancourt@gmail.com">
+                            danagabrielabetancourt@gmail.com
+                        </a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <a href="https://wa.me/+573225326824" target="_blank">
+                            (+57) 322 5326824
+                        </a>
+                    </div>
+                </div>
 
-        <div class="col-md-8 p-0">
+                <div class="hr-class rounded-5 bg-success"></div>
+                <h4 class="mt-2">Idiomas</h4>
+                <ul class="text-start">
+                    <li>Español - <small>nativo</small></li>
+                    <li>Ingles - <small>B2</small></li>
+                </ul>
+            </section>
+        </div>
+        <div class="col-md-8 p-0 mt-5">
             <section class="mb-4">
                 <h3 class="text-dark bg-primary px-4 rounded-end-5">Perfil</h3>
                 <p class="px-4">
@@ -66,13 +94,19 @@
                     <ul>
                         <li>Técnico en desarrollo empresarial</li>
                         <li>Asesora Comercial - Laboratorios Lissia</li>
-                        <li>📞 (+57) 311 775 0911</li>
+                        <small>
+                            <i class="fa-solid fa-phone"></i>
+                            (+57) 311 775 0911
+                        </small>
                     </ul>
 
                     <h5>Diana Catalina Santracruz</h5>
                     <ul>
                         <li>Licenciada en Primera Infancia</li>
-                        <li>📞 (+57) 323 521 1780</li>
+                        <small>
+                            <i class="fa-solid fa-phone"></i>
+                            (+57) 323 521 1780
+                        </small>
                     </ul>
                 </div>
             </section>
@@ -86,13 +120,19 @@
                     <ul>
                         <li>Abogado</li>
                         <li>Propietario - Shot Me (Plaza Norte)</li>
-                        <li>📞 (+57) 316 360 0769</li>
+                        <small>
+                            <i class="fa-solid fa-phone"></i>
+                            (+57) 316 360 0769
+                        </small>
                     </ul>
 
                     <h5>Alcira Rodrigues</h5>
                     <ul>
                         <li>Vendedora - Tienda El Descuentaso</li>
-                        <li>📞 (+57) 318 328 3940</li>
+                        <small>
+                            <i class="fa-solid fa-phone"></i>
+                            (+57) 318 328 3940
+                        </small>
                     </ul>
                 </div>
             </section>
