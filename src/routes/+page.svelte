@@ -1,5 +1,6 @@
 <script>
     import danna from "$lib/images/danna (1-1).jpg";
+    import "$lib/css/style.css";
 </script>
 
 <svelte:head>
