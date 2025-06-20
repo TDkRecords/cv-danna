@@ -5,12 +5,6 @@
 
 <svelte:head>
     <title>CV - Danna</title>
-    <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7z1p1rU9zrjG1lKo5i5v6AScXn/tWtIaxVXM"
-        crossorigin="anonymous"
-    />
 </svelte:head>
 
 <div class="container">
